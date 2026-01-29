@@ -147,8 +147,16 @@ In this case study, a **frontend UI** for an **AI-Based Resume Analyzer** is des
 
 ### **Case Study UI Screenshots**
 > *(Add Case Study Dashboard Screenshots here)*
-<img width="1366" height="690" alt="image" src="https://github.com/user-attachments/assets/07d25287-0c08-43e4-ba6a-0ff4ff01bb24" />
-<img width="1365" height="690" alt="image" src="https://github.com/user-attachments/assets/f085cd25-71f0-4423-ae05-b535f0736c1e" />
+<img width="1920" height="1080" alt="Screenshot (80)" src="https://github.com/user-attachments/assets/9f634d24-8623-47aa-91af-a052618878b7" />
+<img width="1920" height="1080" alt="Screenshot (81)" src="https://github.com/user-attachments/assets/fe7d919e-5950-4eb0-97c9-08de5df00692" />
+<img width="1920" height="1080" alt="Screenshot (82)" src="https://github.com/user-attachments/assets/ea8298c5-5f33-4316-9e27-8a87043679a9" />
+<img width="1920" height="1080" alt="Screenshot (83)" src="https://github.com/user-attachments/assets/73a1c60d-d313-45ba-9acb-9ddd8965d46d" />
+<img width="1920" height="1080" alt="Screenshot (84)" src="https://github.com/user-attachments/assets/6bd76d1e-9a5c-4580-a38f-933251691125" />
+
+
+
+
+
 
 
 
