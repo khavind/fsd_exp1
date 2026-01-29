@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareerGPS - Next Gen</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">CareerGPS</div>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#paths">Career Paths</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#progress">Progress</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section with Parallax -->
+    <section id="hero">
+        <div class="parallax-layer layer-back"></div>
+        <div class="parallax-layer layer-mid"></div>
+        <div class="parallax-layer layer-front"></div>
+
+        <!-- Centered Hero Content -->
+        <div class="hero-content centered">
+            <!-- <h1 class="animate">Navigate Your Future</h1> -->
+             <h1 id="hero-title" class="hero-title">
+  Navigate Your Future
+</h1>
+
+            <p class="animate">Explore careers, unlock skills, and grow like never before.</p>
+            <button class="cta-btn animate-glow">Start Your Journey</button>
+        </div>
+
+        <canvas id="particle-canvas"></canvas>
+    </section>
+
+    <!-- Career Paths -->
+    <section id="paths">
+        <h2 class="section-title">Explore Career Paths</h2>
+        <div class="cards-container">
+
+            <div class="card" data-title="AI Engineer">
+                <h3>AI Engineer</h3>
+                <p>Build intelligent systems and algorithms.</p>
+                <div class="extra-info">
+                    <p>AI Engineers design machine learning models, work on neural networks, and create intelligent applications that can think and learn.</p>
+                </div>
+                <div class="badge">🔥 New</div>
+            </div>
+
+            <div class="card" data-title="Frontend Developer">
+                <h3>Frontend Developer</h3>
+                <p>Create futuristic web experiences.</p>
+                <div class="extra-info">
+                    <p>Frontend Developers craft interactive web interfaces using HTML, CSS, JavaScript, and frameworks like React to make modern user experiences.</p>
+                </div>
+                <div class="badge">⭐ Popular</div>
+            </div>
+
+            <div class="card" data-title="Data Scientist">
+                <h3>Data Scientist</h3>
+                <p>Analyze data to drive smart decisions.</p>
+                <div class="extra-info">
+                    <p>Data Scientists analyze large datasets, extract insights, build predictive models, and help companies make data-driven decisions.</p>
+                </div>
+                <div class="badge">🚀 Trending</div>
+            </div>
+
+        </div>
+    </section>
+    <section id="skills-section">
+  <h2 class="section-title">Job Skills</h2>
+
+  <div class="job-cards-container">
+    <div class="job-card" data-job="AI Engineer">AI Engineer</div>
+    <div class="job-card" data-job="Frontend Developer">Frontend Developer</div>
+    <div class="job-card" data-job="Data Scientist">Data Scientist</div>
+  </div>
+
+  <div id="skills-display" class="skills-display">
+    <!-- Skills for the selected job will appear here -->
+    <p>Select a job to see required skills.</p>
+  </div>
+</section>
+  <button id="check-gap-btn" style="margin-top:20px; padding:10px 20px; border:none; border-radius:10px; cursor:pointer; background:#00fff7; color:#000; font-weight:bold;">
+    Check Skill Gap
+  </button>
+
+  <div id="skill-gap-result" class="skills-display" style="margin-top:20px; min-height:50px;">
+    <!-- Skill gap result will appear here -->
+  </div>
+</section>
+
+    <section id="compare">
+  <h2 class="section-title">Compare Careers</h2>
+
+  <div class="compare-container">
+    <select id="job1">
+      <option value="" disabled selected>Select First Job</option>
+      <option value="AI Engineer">AI Engineer</option>
+      <option value="Frontend Developer">Frontend Developer</option>
+      <option value="Data Scientist">Data Scientist</option>
+    </select>
+
+    <select id="job2">
+      <option value="" disabled selected>Select Second Job</option>
+      <option value="AI Engineer">AI Engineer</option>
+      <option value="Frontend Developer">Frontend Developer</option>
+      <option value="Data Scientist">Data Scientist</option>
+    </select>
+
+    <button id="compare-btn">Compare</button>
+  </div>
+
+  <div id="comparison-result" class="comparison-result">
+    <!-- Graphs will appear here -->
+  </div>
+</section>
+ 
+    <!-- Skills Dashboard -->
+    <section id="skills">
+        <h2 class="section-title">Skill Progress</h2>
+        <div class="progress-container">
+            <div class="progress-card chart" data-skill="JavaScript" data-progress="80">
+                <h3>JavaScript</h3>
+                <canvas class="skill-chart"></canvas>
+            </div>
+            <div class="progress-card chart" data-skill="Python" data-progress="60">
+                <h3>Python</h3>
+                <canvas class="skill-chart"></canvas>
+            </div>
+            <div class="progress-card chart" data-skill="Machine Learning" data-progress="50">
+                <h3>Machine Learning</h3>
+                <canvas class="skill-chart"></canvas>
+            </div>
+        </div>
+    </section>
+
+    <!-- Career Progress / Gamification -->
+    <section id="progress">
+        <h2 class="section-title">Career Progress</h2>
+        <div class="progress-ring" data-level="3">
+            <svg viewBox="0 0 120 120">
+                <circle class="bg" cx="60" cy="60" r="54"/>
+                <circle class="fg" cx="60" cy="60" r="54"/>
+            </svg>
+            <div class="level-text">Level 3</div>
+        </div>
+        <div class="xp-badges">
+            <div class="xp-badge" title="Completed 5 tasks">🏆</div>
+            <div class="xp-badge" title="Reached Level 3">💎</div>
+            <div class="xp-badge" title="Streak 7 days">🔥</div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 CareerGPS. All rights reserved.</p>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+<div class="quest-panel">
+  <h3>🚀 Skill Quest Progress</h3>
+
+  <div class="xp-bar">
+    <div class="xp-fill"></div>
+  </div>
+
+  <p class="xp-text">0 / 600 XP</p>
+
+  <div class="milestones">
+    <span>🔓 Beginner</span>
+    <span>🔓 Intermediate</span>
+    <span>🔓 Advanced</span>
+    <span>🏆 Master</span>
+  </div>
+</div>
+<!-- Quick Navigation Panel -->
+<div class="quick-nav">
+  <a href="#hero" data-label="Home">🏠</a>
+  <a href="#paths" data-label="Career Paths">🧭</a>
+  <a href="#job-skills" data-label="Job Skills">🧠</a>
+  <a href="#skill-gap" data-label="Skill Gap">🧩</a>
+  <a href="#compare" data-label="Compare Careers">⚖️</a>
+  <a href="#skill-quest" data-label="Skill Quest">🚀</a>
+</div>
+
+
+
+
+
+
+
+
+
+
+    <script src="script1.js"></script>
+</body>
+</html>
+
+
+
+
